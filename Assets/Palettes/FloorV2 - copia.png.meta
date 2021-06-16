@@ -1,0 +1,332 @@
+fileFormatVersion: 2
+guid: c5658a6b4ae8bac4cab28e4f6821b87e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7391458917624243530
+    second: FloorV2 - copia_0
+  - first:
+      213: 8746122274205403554
+    second: FloorV2 - copia_1
+  - first:
+      213: 166528303163676810
+    second: FloorV2 - copia_2
+  - first:
+      213: 2302719453378455009
+    second: FloorV2 - copia_3
+  - first:
+      213: 1640309156071160957
+    second: FloorV2 - copia_4
+  - first:
+      213: -4451828205394226828
+    second: FloorV2 - copia_5
+  - first:
+      213: 1945071520466099332
+    second: FloorV2 - copia_6
+  - first:
+      213: 5405542718464782
+    second: FloorV2 - copia_7
+  - first:
+      213: -7501719395535440665
+    second: FloorV2 - copia_8
+  - first:
+      213: 3693929782966647108
+    second: FloorV2 - copia_9
+  - first:
+      213: -2135055650346358123
+    second: FloorV2 - copia_10
+  - first:
+      213: -5629552128925467941
+    second: FloorV2 - copia_11
+  - first:
+      213: 2032162156276157308
+    second: FloorV2 - copia_12
+  - first:
+      213: -2244700737600536324
+    second: FloorV2 - copia_13
+  - first:
+      213: -8582641353123914729
+    second: FloorV2 - copia_14
+  - first:
+      213: 1066867047649654999
+    second: FloorV2 - copia_15
+  - first:
+      213: 8268925704626995008
+    second: FloorV2 - copia_16
+  - first:
+      213: 5678197258796799486
+    second: FloorV2 - copia_17
+  - first:
+      213: -3363980981647243186
+    second: FloorV2 - copia_18
+  - first:
+      213: -6855186960895919584
+    second: FloorV2 - copia_19
+  - first:
+      213: 8034114265609170301
+    second: FloorV2 - copia_20
+  - first:
+      213: 2072463084897538994
+    second: FloorV2 - copia_21
+  - first:
+      213: 3063535345191010866
+    second: FloorV2 - copia_22
+  - first:
+      213: 4894621467854145569
+    second: FloorV2 - copia_23
+  - first:
+      213: 3443828711902607310
+    second: FloorV2 - copia_24
+  - first:
+      213: -2166254163018145281
+    second: FloorV2 - copia_25
+  - first:
+      213: 283559487838508459
+    second: FloorV2 - copia_26
+  - first:
+      213: 6410806488100213892
+    second: FloorV2 - copia_27
+  - first:
+      213: 1379912242893218309
+    second: FloorV2 - copia_28
+  - first:
+      213: 4263880156128977877
+    second: FloorV2 - copia_29
+  - first:
+      213: -5275867914913605878
+    second: FloorV2 - copia_30
+  - first:
+      213: 1501266336372222133
+    second: FloorV2 - copia_31
+  - first:
+      213: 4205908238376070062
+    second: FloorV2 - copia_32
+  - first:
+      213: 1014704654338970307
+    second: FloorV2 - copia_33
+  - first:
+      213: 4937798499287554132
+    second: FloorV2 - copia_34
+  - first:
+      213: -6055061732036693099
+    second: FloorV2 - copia_35
+  - first:
+      213: -9123320920092661239
+    second: FloorV2 - copia_36
+  - first:
+      213: -5728176483726921942
+    second: FloorV2 - copia_37
+  - first:
+      213: 3446296550773719201
+    second: FloorV2 - copia_38
+  - first:
+      213: -8128401071634909090
+    second: FloorV2 - copia_39
+  - first:
+      213: -7633936998030017536
+    second: FloorV2 - copia_40
+  - first:
+      213: 8263230091783678954
+    second: FloorV2 - copia_41
+  - first:
+      213: -3068057164050179445
+    second: FloorV2 - copia_42
+  - first:
+      213: -5296738089592134427
+    second: FloorV2 - copia_43
+  - first:
+      213: 6923480656877713168
+    second: FloorV2 - copia_44
+  - first:
+      213: 4391205807284489568
+    second: FloorV2 - copia_45
+  - first:
+      213: 3185475251157868806
+    second: FloorV2 - copia_46
+  - first:
+      213: -7351533803098998082
+    second: FloorV2 - copia_47
+  - first:
+      213: -6569062285274295364
+    second: FloorV2 - copia_48
+  - first:
+      213: -5464178124627985714
+    second: FloorV2 - copia_49
+  - first:
+      213: -4438717966876415828
+    second: FloorV2 - copia_50
+  - first:
+      213: -6399971715511230935
+    second: FloorV2 - copia_51
+  - first:
+      213: -4596260395600028668
+    second: FloorV2 - copia_52
+  - first:
+      213: -4684286854742035582
+    second: FloorV2 - copia_53
+  - first:
+      213: 67081398503150109
+    second: FloorV2 - copia_54
+  - first:
+      213: 681284246393366657
+    second: FloorV2 - copia_55
+  - first:
+      213: 4325325050597407964
+    second: FloorV2 - copia_56
+  - first:
+      213: -193313452077349085
+    second: FloorV2 - copia_57
+  - first:
+      213: 8877579379137698774
+    second: FloorV2 - copia_58
+  - first:
+      213: -6200180349217502435
+    second: FloorV2 - copia_59
+  - first:
+      213: -6026862550174991329
+    second: FloorV2 - copia_60
+  - first:
+      213: -7006057884321798713
+    second: FloorV2 - copia_61
+  - first:
+      213: 4070713493332916481
+    second: FloorV2 - copia_62
+  - first:
+      213: 9028804952680456617
+    second: FloorV2 - copia_63
+  - first:
+      213: 6667828559172054198
+    second: FloorV2 - copia_0
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FloorV2 - copia_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bca7a43fb2e88c50800000000000000
+      internalID: 6667828559172054198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

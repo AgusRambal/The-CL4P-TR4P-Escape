@@ -58,18 +58,20 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.gameObject.tag.Equals("Enemy"))
+        if (collider.gameObject.tag.Equals("Box"))
         {
-            gameOverText.SetActive(true);
-            restartButton.SetActive(true);
+           // gameOverText.SetActive(true);
+            //restartButton.SetActive(true);
+            //GetComponent<PlayerController>().enabled = false;
+            Debug.Log("Te toco");
         }
 
         if (collider.gameObject.tag.Equals("Roland"))
         {
             winText.SetActive(true);
             reloadButton.SetActive(true);
-            Debug.Log("adsinjo");
+            GetComponent<PlayerController>().enabled = false;
+            Debug.Log("Ganaste");
         }
     }
-
 }

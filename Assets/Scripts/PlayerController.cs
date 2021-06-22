@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -22,6 +23,9 @@ public class PlayerController : MonoBehaviour
         winText.SetActive(false);
         restartButton.SetActive(false);
         reloadButton.SetActive(false);
+
+        TimeController.instance.StartTime();
+
     }
 
     void Update()
@@ -53,6 +57,12 @@ public class PlayerController : MonoBehaviour
                 }
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.D))
+        {
+            StepsCounter.stepsValue += 1;
+        }
+
     }
     private void OnTriggerEnter2D(Collider2D collider)
     {
@@ -61,6 +71,7 @@ public class PlayerController : MonoBehaviour
             gameOverText.SetActive(true);
             restartButton.SetActive(true);
             GetComponent<PlayerController>().enabled = false;
+            TimeController.instance.EndTime();
             Debug.Log("Te toco");
         }
 
@@ -69,6 +80,7 @@ public class PlayerController : MonoBehaviour
             winText.SetActive(true);
             reloadButton.SetActive(true);
             GetComponent<PlayerController>().enabled = false;
+            TimeController.instance.EndTime();
             Debug.Log("Ganaste");
         }
     }

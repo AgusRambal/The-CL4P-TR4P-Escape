@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class RestartButtonScript : MonoBehaviour
 {
-
     public void restarScene()
     {
         SceneManager.LoadScene("Claptrap game");

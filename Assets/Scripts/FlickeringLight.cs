@@ -14,7 +14,6 @@ public class FlickeringLight : MonoBehaviour
         timer = Time.time;
     }
 
-
     void Update()
     {
         FlickerLight();

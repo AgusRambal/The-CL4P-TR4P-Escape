@@ -14,7 +14,6 @@ public class CollideDeath : MonoBehaviour
         timer = Time.time;
     }
 
-
     void Update()
     {
         DeathCollide();

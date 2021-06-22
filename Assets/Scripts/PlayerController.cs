@@ -29,12 +29,11 @@ public class PlayerController : MonoBehaviour
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
-        transform.position = Vector3.MoveTowards(transform.position, movePoint.position, moveSpeed * Time.deltaTime);
-
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
 
+        transform.position = Vector3.MoveTowards(transform.position, movePoint.position, moveSpeed * Time.deltaTime);
 
         if (Vector3.Distance(transform.position, movePoint.position) <= .05f)
         {
@@ -55,14 +54,13 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
-
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.gameObject.tag.Equals("Box"))
+        if (collider.gameObject.tag.Equals("BoxDeath"))
         {
-           // gameOverText.SetActive(true);
-            //restartButton.SetActive(true);
-            //GetComponent<PlayerController>().enabled = false;
+            gameOverText.SetActive(true);
+            restartButton.SetActive(true);
+            GetComponent<PlayerController>().enabled = false;
             Debug.Log("Te toco");
         }
 

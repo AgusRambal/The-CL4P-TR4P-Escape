@@ -11,14 +11,14 @@ public class TimeController : MonoBehaviour
     private TimeSpan tiempoCrono;
     private bool timerBool;
     private float transcurredTime;
-    
+
     void Start()
     {
         crono.text = "Time: 00:00:00";
         timerBool = false;
     }
 
-    private void Awake()
+    public void Awake()
     {
         instance = this;
     }
@@ -28,17 +28,19 @@ public class TimeController : MonoBehaviour
         timerBool = true;
         transcurredTime = 0f;
 
+        Debug.Log(timerBool);
+
         StartCoroutine(ActUpdate());
     }
 
-    public void EndTime() 
+    public void EndTime()
     {
         timerBool = false;
     }
 
     private IEnumerator ActUpdate()
     {
-        while (timerBool)
+        while (timerBool == true)
         {
             transcurredTime += Time.deltaTime;
             tiempoCrono = TimeSpan.FromSeconds(transcurredTime);

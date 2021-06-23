@@ -23,6 +23,7 @@ public class PlayerController : MonoBehaviour
         winText.SetActive(false);
         restartButton.SetActive(false);
         reloadButton.SetActive(false);
+        StepsCounter.stepsValue = 0;
 
         TimeController.instance.StartTime();
 
@@ -46,6 +47,7 @@ public class PlayerController : MonoBehaviour
                 if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .3f, whatStopsMovement))
                 {
                     movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f);
+                    StepsCounter.stepsValue += 1;
                 }
             }
 
@@ -54,15 +56,10 @@ public class PlayerController : MonoBehaviour
                 if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f), .3f, whatStopsMovement))
                 {
                     movePoint.position += new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f);
+                    StepsCounter.stepsValue += 1;
                 }
             }
         }
-
-        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.D))
-        {
-            StepsCounter.stepsValue += 1;
-        }
-
     }
     private void OnTriggerEnter2D(Collider2D collider)
     {

@@ -8,5 +8,7 @@ public class RestartButtonScript : MonoBehaviour
     public void restarScene()
     {
         SceneManager.LoadScene("Claptrap game");
+        TimeController.instance.EndTime();
+        StepsCounter.stepsValue = 0;
     }
 }

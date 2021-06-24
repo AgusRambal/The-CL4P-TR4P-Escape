@@ -1633,7 +1633,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0}
+  m_BackGroundColor: {r: 0.06666667, g: 0.0627451, b: 0.050980397, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -5835,7 +5835,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 4220687567334218953, guid: ec574f04779344144a0da721e386ca0c,
           type: 3}
-        m_MethodName: restarScene
+        m_MethodName: restarScene2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7083,7 +7083,7 @@ PrefabInstance:
     - target: {fileID: 406253053787436156, guid: ec574f04779344144a0da721e386ca0c,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: restarScene
+      value: restarScene2
       objectReference: {fileID: 0}
     - target: {fileID: 406253053787436156, guid: ec574f04779344144a0da721e386ca0c,
         type: 3}
@@ -7497,7 +7497,7 @@ PrefabInstance:
     - target: {fileID: 8920411601149264038, guid: 919ae871bfd6ac640903a436c3c91cfe,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: restarScene
+      value: restarScene2
       objectReference: {fileID: 0}
     - target: {fileID: 8920411601149264038, guid: 919ae871bfd6ac640903a436c3c91cfe,
         type: 3}

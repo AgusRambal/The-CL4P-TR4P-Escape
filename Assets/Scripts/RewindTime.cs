@@ -45,7 +45,7 @@ public class RewindTime : MonoBehaviour
         if (pointsInTime.Count>0)
         {
            SetPointInTime(pointsInTime[pointsInTime.Count - 1]);
-            pointsInTime.RemoveAt(pointsInTime.Count -1);
+           pointsInTime.RemoveAt(pointsInTime.Count -1);
         }
         else
         {

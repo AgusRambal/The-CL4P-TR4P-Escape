@@ -5,9 +5,22 @@ using UnityEngine.SceneManagement;
 
 public class RestartButtonScript : MonoBehaviour
 {
-    public void restarScene()
+    public void restarScene1()
     {
-        SceneManager.LoadScene("Claptrap game");
+        SceneManager.LoadScene("Level1");
+        TimeController.instance.EndTime();
+        StepsCounter.stepsValue = 0;
+    }
+    public void SiguienteNivel()
+    {
+        SceneManager.LoadScene("Level2");
+        TimeController.instance.EndTime();
+        StepsCounter.stepsValue = 0;
+    }
+
+    public void restarScene2()
+    {
+        SceneManager.LoadScene("Level2");
         TimeController.instance.EndTime();
         StepsCounter.stepsValue = 0;
     }

@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuYLevelSelectScript : MonoBehaviour
 {
-    public Button level02Button, level03Button, level04Button, level05Button, level06Button, playButton, levelSelectButton, backToMenu;
+    public Button level02Button, level03Button, level04Button, level05Button, level06Button, playButton, levelSelectButton, backToMenu, quit;
     int levelPassed;
     void Start()
     {
@@ -19,6 +19,7 @@ public class MenuYLevelSelectScript : MonoBehaviour
         playButton.interactable = true;
         levelSelectButton.interactable = true;
         backToMenu.interactable = true;
+        quit.interactable = true;
 
         switch (levelPassed)
         {
@@ -42,5 +43,11 @@ public class MenuYLevelSelectScript : MonoBehaviour
         level02Button.interactable = true;
         level03Button.interactable = false;
         PlayerPrefs.DeleteAll();
+    }
+
+    public void QuitApp()
+    {
+        Debug.Log("Quit");
+        Application.Quit();
     }
 }

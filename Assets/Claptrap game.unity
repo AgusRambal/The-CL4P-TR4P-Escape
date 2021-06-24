@@ -6108,6 +6108,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.9167938, y: 3.162591}
   m_EdgeRadius: 0
+--- !u!114 &1836669104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836669098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29e8056665b0e94f819f2b1f672c8c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isRewinding: 0
 --- !u!1 &1847348505
 GameObject:
   m_ObjectHideFlags: 0
@@ -7289,7 +7302,7 @@ PrefabInstance:
     - target: {fileID: 9136601319817996021, guid: 13beaf9b3d2d3ce40b9837473049a329,
         type: 3}
       propertyPath: moveSpeed
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 9136601319817996021, guid: 13beaf9b3d2d3ce40b9837473049a329,
         type: 3}

@@ -36,6 +36,8 @@ public class MenuYLevelSelectScript : MonoBehaviour
     public void levelToLoad(int level)
     {
         SceneManager.LoadScene(level);
+        TimeController.instance.StartTime();
+
     }
 
     public void resetPlayerPrefs()

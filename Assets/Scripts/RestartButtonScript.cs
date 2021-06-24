@@ -8,7 +8,7 @@ public class RestartButtonScript : MonoBehaviour
     public void restarScene1()
     {
         SceneManager.LoadScene("Level1");
-        TimeController.instance.EndTime();
+        TimeController.instance.StartTime();
         StepsCounter.stepsValue = 0;
     }
     public void SiguienteNivel()

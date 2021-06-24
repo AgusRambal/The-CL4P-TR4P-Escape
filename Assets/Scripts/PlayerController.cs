@@ -24,9 +24,6 @@ public class PlayerController : MonoBehaviour
         restartButton.SetActive(false);
         reloadButton.SetActive(false);
         StepsCounter.stepsValue = 0;
-
-        TimeController.instance.StartTime();
-
     }
 
     void Update()

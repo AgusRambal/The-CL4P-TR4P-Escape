@@ -16,6 +16,7 @@ public class TimeController : MonoBehaviour
     {
         crono.text = "Time: 00:00:00";
         timerBool = false;
+        StartTime();
     }
 
     public void Awake()

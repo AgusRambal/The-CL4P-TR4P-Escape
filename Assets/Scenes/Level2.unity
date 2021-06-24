@@ -1230,6 +1230,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   level02Button: {fileID: 0}
   level03Button: {fileID: 0}
+  level04Button: {fileID: 0}
+  level05Button: {fileID: 0}
+  level06Button: {fileID: 0}
   playButton: {fileID: 0}
   levelSelectButton: {fileID: 0}
   backToMenu: {fileID: 0}

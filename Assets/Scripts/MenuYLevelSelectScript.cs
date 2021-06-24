@@ -6,13 +6,16 @@ using UnityEngine.SceneManagement;
 
 public class MenuYLevelSelectScript : MonoBehaviour
 {
-    public Button level02Button, level03Button, playButton, levelSelectButton, backToMenu;
+    public Button level02Button, level03Button, level04Button, level05Button, level06Button, playButton, levelSelectButton, backToMenu;
     int levelPassed;
     void Start()
     {
         levelPassed = PlayerPrefs.GetInt("LevelPassed");
         level02Button.interactable = true;
         level03Button.interactable = false;
+        level04Button.interactable = false;
+        level05Button.interactable = false;
+        level06Button.interactable = false;
         playButton.interactable = true;
         levelSelectButton.interactable = true;
         backToMenu.interactable = true;
